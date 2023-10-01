@@ -50,7 +50,7 @@ namespace DesafioFundamentos.Models
 
 
                 Console.WriteLine(
-                    $"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}"
+                    $"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal.ToString("N2")}"
                 );
             }
             else
